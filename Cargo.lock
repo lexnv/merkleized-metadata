@@ -100,8 +100,7 @@ checksum = "5443807d6dff69373d433ab9ef5378ad8df50ca6298caf15de6e52e24aaf54d5"
 [[package]]
 name = "frame-metadata"
 version = "17.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "701bac17e9b55e0f95067c428ebcb46496587f08e8cf4ccc0fe5903bea10dbb8"
+source = "git+https://github.com/paritytech/frame-metadata?branch=lexnv/extensions-v16#2c2ffa63f7f04b5b8795a0bedb98f7c5dc388fe2"
 dependencies = [
  "cfg-if",
  "parity-scale-codec",
@@ -143,7 +142,7 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "merkleized-metadata"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "array-bytes",
  "blake3",
